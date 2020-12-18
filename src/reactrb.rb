@@ -24,33 +24,7 @@ def tag_helper(block)
   texts
 end
 
-def h1(**tags, &block)
-  create_element('h1', tags, tag_helper(block))
-end
-
-def h2(**tags, &block)
-  create_element('h2', tags, tag_helper(block))
-end
-
-def h3(**tags, &block)
-  create_element('h3', tags, tag_helper(block))
-end
-
-def h4(**tags, &block)
-  create_element('h4', tags, tag_helper(block))
-end
-
-def P(**tags, &block)
-  create_element('p', tags, tag_helper(block))
-end
-
-def div(**tags, &block)
-  create_element('div', tags, tag_helper(block))
-end
-
-def button(**tags, &block)
-  create_element('button', tags, tag_helper(block))
-end
+require_relative './tags'
 
 def ruby(code)
   Ruby2JS.convert(code).to_s
