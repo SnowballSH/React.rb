@@ -1,0 +1,11 @@
+body {
+    background-color: aquamarine;
+    font-family: Roboto, fantasy;
+}
+
+.mainDiv {
+    background-color: #90c2ec;
+    padding: 20px;
+    border: 2px solid aqua;
+    border-radius: 1%;
+}
