@@ -13,6 +13,8 @@ or in Gemfile:
 gem 'purereact.rb', '~> 0.0.2'
 ```
 
+### Example:
+
 ```ruby
 require 'reactrb'
 
@@ -32,3 +34,5 @@ render_react([create_function('main', x)])
 # Generates a String of Shortened Html Code and
 # Can be opened using a browser directly.
 ```
+
+### See the /test folder for a full example!
