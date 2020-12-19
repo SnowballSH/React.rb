@@ -1,0 +1,3 @@
+source 'https://rubygems.org'
+
+gem 'purereact.rb', '~> 0.0.2'

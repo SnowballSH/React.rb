@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.1)
+    parser (2.7.2.0)
+      ast (~> 2.4.1)
+    purereact.rb (0.0.2)
+      ruby2js (~> 3.5)
+    regexp_parser (2.0.0)
+    ruby2js (3.5.3)
+      parser
+      regexp_parser
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  purereact.rb (~> 0.0.2)
+
+BUNDLED WITH
+   2.1.4

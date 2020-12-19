@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../lib/reactrb'
+require 'reactrb'
 
 # A Component
 x = div(className: str('mainDiv')) do

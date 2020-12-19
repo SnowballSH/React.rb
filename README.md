@@ -10,7 +10,7 @@ gem install purereact.rb
 ```
 or in Gemfile:
 ```
-gem 'purereact.rb'
+gem 'purereact.rb', '~> 0.0.2'
 ```
 
 ```ruby
